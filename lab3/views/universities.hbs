@@ -1,0 +1,72 @@
+<div class="wrapper">
+	<div class="universities">
+		<div class="universities__title title"><img id="main-logo" src="/img/icons/logo.png" alt="logo" /> Багатосторінковий сайт</div>
+		<div class="universities__row row">
+			<div class="universities__menu menu">
+				{{>menu}}
+			</div>
+			<div class="universities__content content">
+				<form class="search-universities" name="searchUniversities" method="GET">
+					<input name="name" placeholder="Введіть назву існуючих університетів" type="text">
+					{{#if name.length}}
+					Ви ввели: {{name}}
+					{{/if}}
+				</form>
+				<br>
+				{{#if universities.results.length}}
+				{{#each universities.results}}
+				<table class="entities-table">
+					<tr>
+						<td><a href="universities/{{uuid}}">{{name}}</a></td>
+					</tr>
+				</table>
+				{{/each}}
+				<br>
+				Поточна сторінка: {{currentPage}}
+				<br>
+				<br>
+				<div class="universities__navigation">
+					<form method="GET">
+						{{#if name.length}}
+						<input type="hidden" name="name" value="{{name}}" />
+						{{/if}}
+
+						{{#if universities.previous}}
+						<input type="hidden" name="page" value="{{universities.previous.page}}" />
+						<input type="submit" value="Назад" />
+						{{/if}}
+					</form>
+
+					{{#if name}}
+					{{else}}
+					{{#each universities.page}}
+					<form method="GET">
+						<input type="hidden" name="page" value="{{this}}" />
+						<input type="submit" value="{{this}}" />
+					</form>
+					{{/each}}
+					{{/if}}
+
+					<form method="GET">
+						{{#if name.length}}
+						<input type="hidden" name="name" value="{{name}}" />
+						{{/if}}
+
+						{{#if universities.next}}
+						<input type="hidden" name="page" value="{{universities.next.page}}" />
+						<input type="submit" value="Далі" />
+						{{/if}}
+					</form>
+				</div>
+				{{else}}
+				<p>No universities..</p>
+				{{/if}}
+				<br>
+				<div class="create-new-university">
+					<a href="/universities/new">Створити новий університет</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="/js/custom.js"></script>

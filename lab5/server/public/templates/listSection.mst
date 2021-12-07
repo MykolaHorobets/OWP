@@ -1,0 +1,25 @@
+<section class="list-section">
+	<div class='container'>
+		<form class="list-section__search">
+			<input class="list-section__search-input" name="name" placeholder="Enter the names of universities" type="text">
+			<div class="list-section__search-indicator"></div>
+		</form>
+
+		<div class="list-section__wrapper">
+			<div id="list" class="list-section__list list">
+				<div class="container">
+					<div class="spinner-cnt">
+						<div class="spinner-border" role="status">
+							<span class="sr-only">Loading...</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<nav id="pagination" aria-label="Search results pages">
+
+		</nav>
+
+	</div>
+</section>

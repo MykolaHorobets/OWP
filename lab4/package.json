@@ -1,0 +1,29 @@
+{
+	"name": "lab4",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app",
+		"dev": "nodemon app"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cloudinary": "^1.24.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-fileupload": "^1.2.0",
+		"express-handlebars": "^5.1.0",
+		"fs": "0.0.1-security",
+		"mongo": "^0.1.0",
+		"mongoose": "^5.11.14"
+	},
+	"devDependencies": {
+		"eslint-plugin-no-async-without-await": "^1.2.0",
+		"express-swagger-generator": "^1.1.17",
+		"nodemon": "^2.0.4"
+	}
+}

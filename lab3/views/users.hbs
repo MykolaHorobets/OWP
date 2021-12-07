@@ -1,0 +1,33 @@
+<div class="wrapper">
+	<div class="users">
+		<div class="users__title title"><img id="main-logo" src="/img/icons/logo.png" alt="logo" />Багатосторінковий сайт</div>
+		<div class="users__row row">
+			<div class="users__menu menu">
+				{{>menu}}
+			</div>
+			<div class="users__content content">
+				{{#if users.results.length}}
+				<table class="entities-table">
+					<tr>
+						<th>Login</th>
+						<th>Fullname</th>
+						<th>Registered</th>
+					</tr>
+				</table>
+				{{#each users.results}}
+				<table class="entities-table">
+					<tr>
+						<td><a href="users/{{uuid}}">{{login}}</a></td>
+						<td>{{fullname}}</td>
+						<td>{{registeredAt}}</td>
+					</tr>
+				</table>
+				{{/each}}
+
+				{{else}}
+				<p>No users..</p>
+				{{/if}}
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,52 @@
+<div class="wrapper">
+	<div class="specialty">
+		<div class="specialty__title title"><img id="main-logo" src="/img/icons/logo.png" alt="logo" />Сайт</div>
+		<div class="specialty__row row">
+			<div class="specialty__menu menu">
+				{{>menu}}
+			</div>
+			<div class="specialty__content content">
+				{{#if specialty.name}}
+				{{#if specialty.image}}
+				<div class="content__ava">
+					<img src="{{specialty.image}}" alt="image not found" />
+				</div>
+				{{/if}}
+				<br>
+				<table class="entities-table specialty__table">
+					<tr>
+						<th>Name</th>
+						<td><input class="specialty__input-name" name="name" type="text" value="{{specialty.name}}"></td>
+					</tr>
+					<tr>
+						<th>Num of students</th>
+						<td><input class="specialty__input-num-of-students" name="numOfStudents" type="text" value="{{specialty.numOfStudents}}"></td>
+					</tr>
+				</table>
+				<br>
+
+				<div class="specialty__forms">
+					<form method="POST" onsubmit="return check()">
+						<input type="hidden" name="_method" value="DELETE">
+						<input type="hidden" name="id" value="{{specialty._id}}" />
+						<input class="remove-entity remove-specialty" type="submit" value="Видалити цю спеціальність">
+					</form>
+					<form method="POST" onsubmit="return helper()">
+						<input type="hidden" name="_method" value="UPDATE">
+						<input type="hidden" name="id" value="{{specialty._id}}" />
+						<input class="specialty__submit-name" type="hidden" name="name" value="test" />
+						<input class="specialty__submit-num-of-students" type="hidden" name="numOfStudents" value="test" />
+						<input class="remove-entity remove-specialty" type="submit" value="Оновити спеціальність">
+					</form>
+				</div>
+				{{else}}
+				<table class="entities-table specialty__table">
+					<tr>
+						<td><input class="specialty__input-name" name="name" type="text" value="This specialty does not exist"></td>
+					</tr>
+				</table>
+				{{/if}}
+			</div>
+		</div>
+	</div>
+</div>

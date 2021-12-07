@@ -1,0 +1,33 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 12,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true,
+			"experimentalObjectRestSpread": true
+		}
+	},
+	"plugins": [
+		"no-async-without-await"
+	],
+	"rules": {
+		"semi": 2,
+		"no-unused-vars": [
+			"error",
+			{
+				"vars": "all",
+				"args": "after-used"
+			}
+		],
+		"no-undefined": "error",
+		"no-undef": "error",
+		"eqeqeq": "error",
+		"no-var": "error",
+		"no-async-without-await/no-async-without-await": 1
+	},
+	"env": {
+		"es6": true,
+		"node": true,
+		"browser": true
+	}
+}

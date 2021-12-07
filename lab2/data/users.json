@@ -1,0 +1,101 @@
+[ 
+	{
+		"uuid": "9d5ad13a-de1a-4f21-90fa-0a180301041b",
+		"login": "admin",
+		"fullname": "Admin Admin",
+		"role": 1,
+		"registeredAt": "2020-06-10T14:12:48.622Z",
+		"avaUrl": "https://i.ibb.co/1bXgp60/photo-2015-09-24-22-09-17.jpg",
+		"isEnabled": true
+	},
+	{
+		"uuid": "6e8d22c3-8d93-415e-9f10-eca4d1879f6e",
+		"login": "testUser",
+		"fullname": "Test User",
+		"role": 0,
+		"registeredAt": "2020-09-10T14:18:48.622Z",
+		"avaUrl": "#",
+		"isEnabled": true
+	},
+	{
+		"uuid": "6e8d23c3-8d93-415e-9f10-eca4d1879f6e",
+		"login": "testUser2",
+		"fullname": "Test2 Use2r",
+		"role": 0,
+		"registeredAt": "2020-09-10T14:18:48.622Z",
+		"avaUrl": "#",
+		"isEnabled": true
+	},
+	{
+		"uuid": "6e8d24c3-8d93-415e-9f10-eca4d1879f6e",
+		"login": "testUs12312er",
+		"fullname": "Test Us123er",
+		"role": 0,
+		"registeredAt": "2020-09-10T14:18:48.622Z",
+		"avaUrl": "#",
+		"isEnabled": true
+	},
+	{
+		"uuid": "6e8d25c3-8d93-415e-9f10-eca4d1879f6e",
+		"login": "test32432User",
+		"fullname": "T435est U345ser",
+		"role": 0,
+		"registeredAt": "2020-09-10T14:18:48.622Z",
+		"avaUrl": "#",
+		"isEnabled": true
+	},
+	{
+		"uuid": "6e8d26c3-8d93-415e-9f10-eca4d1879f6e",
+		"login": "testUse4444r",
+		"fullname": "Test66 Us66er",
+		"role": 0,
+		"registeredAt": "2020-09-10T14:18:48.622Z",
+		"avaUrl": "#",
+		"isEnabled": true
+	},
+	{
+		"uuid": "6e8d27c3-8d93-415e-9f10-eca4d1879f6e",
+		"login": "testU1333333ser",
+		"fullname": "Test User9",
+		"role": 0,
+		"registeredAt": "2020-09-10T14:18:48.622Z",
+		"avaUrl": "#",
+		"isEnabled": true
+	},
+	{
+		"uuid": "6e8d28c3-8d93-415e-9f10-eca4d1879f6e",
+		"login": "testUser43553543",
+		"fullname": "Test User55",
+		"role": 0,
+		"registeredAt": "2020-09-10T14:18:48.622Z",
+		"avaUrl": "#",
+		"isEnabled": true
+	},
+	{
+		"uuid": "6e8d29c3-8d93-415e-9f10-eca4d1879f6e",
+		"login": "teweewfwstUser",
+		"fullname": "Test User",
+		"role": 0,
+		"registeredAt": "2020-09-10T14:18:48.622Z",
+		"avaUrl": "#",
+		"isEnabled": true
+	},
+	{
+		"uuid": "6e8d30c3-8d93-415e-9f10-eca4d1879f6e",
+		"login": "testUergretretser",
+		"fullname": "Test User",
+		"role": 0,
+		"registeredAt": "2020-09-10T14:18:48.622Z",
+		"avaUrl": "#",
+		"isEnabled": true
+	},
+	{
+		"uuid": "9d5ad15a-de1a-4f21-90fa-0a180301041b",
+		"login": "admin2",
+		"fullname": "Admin2 Admin2",
+		"role": 1,
+		"registeredAt": "2020-06-10T14:12:48.622Z",
+		"avaUrl": "https://i.ibb.co/1bXgp60/photo-2015-09-24-22-09-17.jpg",
+		"isEnabled": true
+	}
+]

@@ -1,0 +1,49 @@
+<div class="wrapper">
+	<div class="university">
+		<div class="university__title title"><img id="main-logo" src="/img/icons/logo.png" alt="logo" /> Багатосторінковий сайт</div>
+		<div class="university__row row">
+			<div class="university__menu menu">
+				{{>menu}}
+			</div>
+			<div class="university__content content">
+				{{#if university}}
+				{{#if university.unImage}}
+				<div class="content__ava">
+					<img src="{{university.unImage}}" alt="image not found" />
+				</div>
+				{{/if}}
+				<br>
+				<table class="entities-table">
+					<tr>
+						<th>Name</th>
+						<td>{{university.name}}</td>
+					</tr>
+					<tr>
+						<th>Country</th>
+						<td>{{university.country}}</td>
+					</tr>
+					<tr>
+						<th>Num of students</th>
+						<td>{{university.numOfStudents}}</td>
+					</tr>
+					<tr>
+						<th>Campus</th>
+						<td>{{university.campus}}</td>
+					</tr>
+					<tr>
+						<th>Foundation date</th>
+						<td>{{university.foundationDate}}</td>
+					</tr>
+				</table>
+
+				<form method="POST" onsubmit="return check()">
+					<input type="hidden" name="uuid" value="{{university.uuid}}" />
+					<input class="remove-university" type="submit" value="Удалить этот университет">
+				</form>
+				{{else}}
+				<div>University is not found.</div>
+				{{/if}}
+			</div>
+		</div>
+	</div>
+</div>

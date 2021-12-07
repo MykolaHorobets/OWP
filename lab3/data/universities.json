@@ -1,0 +1,125 @@
+[
+    {
+        "uuid": "9d5ad13a-de1a-4f21-90fa-0a123301041b",
+        "name": "KPI",
+        "country": "Ukrainka",
+        "numOfStudents": 36532,
+        "campus": 1.6,
+        "foundationDate": "1898-08-31T00:00:00.000Z",
+        "unImage": "http://localhost:3000/api/media/30e65a4d028ca85484a5be19462d329e"
+    },
+    {
+        "uuid": "63f3523b-354c-4035-a340-28aad441df30",
+        "name": "Unik",
+        "country": "Zambalia",
+        "numOfStudents": 123,
+        "campus": 234,
+        "foundationDate": "1898-08-31T00:00:00.000Z"
+    },
+    {
+        "uuid": "65f3523b-354c-4035-a340-28aad441df30",
+        "name": "Unik3",
+        "country": "Zambalia",
+        "numOfStudents": 123,
+        "campus": 234,
+        "foundationDate": "1898-08-31T00:00:00.000Z"
+    },
+    {
+        "uuid": "66f3523b-354c-4035-a340-28aad441df30",
+        "name": "Unik4",
+        "country": "Zambalia",
+        "numOfStudents": 123,
+        "campus": 234,
+        "foundationDate": "1898-08-31T00:00:00.000Z"
+    },
+    {
+        "uuid": "67f3523b-354c-4035-a340-28aad441df30",
+        "name": "Unik5",
+        "country": "Zambalia",
+        "numOfStudents": 123,
+        "campus": 234,
+        "foundationDate": "1898-08-31T00:00:00.000Z"
+    },
+    {
+        "uuid": "68f3523b-354c-4035-a340-28aad441df30",
+        "name": "Unik6",
+        "country": "Zambalia",
+        "numOfStudents": 123,
+        "campus": 234,
+        "foundationDate": "1898-08-31T00:00:00.000Z"
+    },
+    {
+        "uuid": "69f3523b-354c-4035-a340-28aad441df30",
+        "name": "Unik7",
+        "country": "Zambalia",
+        "numOfStudents": 123,
+        "campus": 234,
+        "foundationDate": "1898-08-31T00:00:00.000Z"
+    },
+    {
+        "uuid": "1108a67b-63a3-45ab-8533-fe286ffc7a33",
+        "name": "New universi444ty",
+        "country": "string",
+        "numOfStudents": 0,
+        "campus": 0
+    },
+    {
+        "uuid": "1208a67b-63a3-45ab-8533-fe286ffc7a33",
+        "name": "New university5",
+        "country": "string",
+        "numOfStudents": 0,
+        "campus": 0
+    },
+    {
+        "uuid": "1308a67b-63a3-45ab-8533-fe286ffc7a33",
+        "name": "New university6",
+        "country": "string",
+        "numOfStudents": 0,
+        "campus": 0
+    },
+    {
+        "uuid": "1408a67b-63a3-45ab-8533-fe286ffc7a33",
+        "name": "New university7",
+        "country": "string",
+        "numOfStudents": 0,
+        "campus": 0
+    },
+    {
+        "uuid": "1508a67b-63a3-45ab-8533-fe286ffc7a33",
+        "name": "New university8",
+        "country": "string",
+        "numOfStudents": 0,
+        "campus": 0
+    },
+    {
+        "uuid": "1608a67b-63a3-45ab-8533-fe286ffc7a33",
+        "name": "New university9",
+        "country": "string",
+        "numOfStudents": 0,
+        "campus": 0
+    },
+    {
+        "uuid": "1708a67b-63a3-45ab-8533-fe286ffc7a33",
+        "name": "New university2222",
+        "country": "string",
+        "numOfStudents": 0,
+        "campus": 0
+    },
+    {
+        "uuid": "d89c6153-6704-4f2a-960d-f94cf2c857a1",
+        "name": "wefwefwe",
+        "country": "ewefewtrwer",
+        "numOfStudents": "",
+        "campus": "",
+        "foundationDate": "2021-11-16",
+        "unImage": "/api/media/5287e0066af1f470d513dfbd9aaa7222"
+    },
+    {
+        "uuid": "9cf9fa7c-e0d0-409c-b34b-1a4ec948a42a",
+        "name": "wefwefwef",
+        "country": "wefwefw",
+        "numOfStudents": "",
+        "campus": "",
+        "foundationDate": ""
+    }
+]

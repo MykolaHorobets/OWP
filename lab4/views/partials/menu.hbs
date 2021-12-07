@@ -1,0 +1,31 @@
+<ul>
+	{{#if isIndex}}
+	<li class="active"><span>•</span><a href="/">Home</a></li>
+	{{else}}
+	<li><span>•</span><a href="/">Home</a></li>
+	{{/if}}
+
+	{{#if isUsers}}
+	<li class="active"><span>•</span><a href="/users">Users</a></li>
+	{{else}}
+	<li><span>•</span><a href="/users">Users</a></li>
+	{{/if}}
+
+	{{#if isUniversities}}
+	<li class="active"><span>•</span><a href="/universities">Universities</a></li>
+	{{else}}
+	<li><span>•</span><a href="/universities">Universities</a></li>
+	{{/if}}
+
+	{{#if isSpecialties}}
+	<li class="active"><span>•</span><a href="/specialties">Specialties</a></li>
+	{{else}}
+	<li><span>•</span><a href="/specialties">Specialties</a></li>
+	{{/if}}
+
+	{{#if isAbout}}
+	<li class="active"><span>•</span><a href="/about">About</a></li>
+	{{else}}
+	<li><span>•</span><a href="/about">About</a></li>
+	{{/if}}
+</ul>

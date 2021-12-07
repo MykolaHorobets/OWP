@@ -1,0 +1,27 @@
+<div class="wrapper">
+	<div class="new-university">
+		<div class="new-university__title title"><img id="main-logo" src="/img/icons/logo.png" alt="logo" />Сайт</div>
+		<div class="new-university__row row">
+			<div class="new-university__menu menu">
+				{{>menu}}
+			</div>
+			<div class="new-entity__content new-university__content content">
+				<form method="post" enctype="multipart/form-data">
+					<input type="text" name="name" required placeholder="Назва">
+					<input type="text" name="country" required placeholder="Країна">
+					<input type="number" name="numOfStudents" placeholder="Кількість студентів">
+					<input type="number" name="campus" placeholder="Площа">
+					Дата основания: <input type="date" name="Засновано">
+					Изображение университета: <input type="file" name="image">
+					<select name="specialty" id="specialty-select" required>
+						<option value="" disabled selected>Select your specialty</option>
+						{{#each specialties}}
+						<option value="{{_id}}">{{name}}</option>
+						{{/each}}
+					</select>
+					<input class="submit" type="submit" value="Создать">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+<h1>{{title}} ({{items.length}}):</h1>
+<table>
+
+	{{#items}}
+	<tr>
+		<th>University: {{name}} {{dateAdded}}</th>
+		<th><button class="list__link" data-id={{_id}}>show more</button></th>
+	</tr>
+	{{/items}}
+
+	{{^items}}
+	No universities
+	{{/items}}
+
+</table>

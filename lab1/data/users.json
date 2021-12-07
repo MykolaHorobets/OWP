@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "9d5ad13a-de1a-4f21-90fa-0a180301041b",
+    "login": "admin",
+    "fullname": "Admin Admin",
+    "role": 1,
+    "registeredAt": "2020-06-10T14:12:48.622Z",
+    "avaUrl": "https://i.ibb.co/1bXgp60/photo-2015-09-24-22-09-17.jpg",
+    "isEnabled": true
+  },
+  {
+    "uuid": "6e8d22c3-8d93-415e-9f10-eca4d1879f6e",
+    "login": "testUser",
+    "fullname": "Test User",
+    "role": 0,
+    "registeredAt": "2020-09-10T14:18:48.622Z",
+    "avaUrl": "#",
+    "isEnabled": true
+  }
+]

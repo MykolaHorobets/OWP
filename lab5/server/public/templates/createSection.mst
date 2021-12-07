@@ -1,0 +1,25 @@
+<section class="create-section-section">
+	<div class='container'>
+		<div class="create-section__wrapper">
+			<form class="create-section__form">
+				<input type="text" name="name" required placeholder="Name">
+				<input type="text" name="country" required placeholder="Country">
+				<input type="number" name="numOfStudents" placeholder="Num of students">
+				<input type="number" name="campus" placeholder="Campus">
+				FoundationDate: <input type="date" name="foundationDate">
+				University image: <input class="form__file" type="file" name="image">
+				<input type="submit" class="submit" value="Create"></input>
+			</form>
+			<div id="list" class="create-section__list list">
+				<div class="container">
+					<div class="spinner-cnt">
+						<div class="spinner-border" role="status">
+							<span class="sr-only">Loading...</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>

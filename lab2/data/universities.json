@@ -1,0 +1,25 @@
+[
+    {
+        "uuid": "9d5ad13a-de1a-4f21-90fa-0a123301041b",
+        "name": "KPI",
+        "country": "Ukraine",
+        "numOfStudents": 36532,
+        "campus": 1.6,
+        "foundationDate": "1898-08-31T00:00:00.000Z"
+    },
+    {
+        "uuid": "63f3523b-354c-4035-a340-28aad441df30",
+        "name": "Unik",
+        "country": "Zambalia",
+        "numOfStudents": 123,
+        "campus": 234,
+        "foundationDate": "string"
+    },
+    {
+        "uuid": "0808a67b-63a3-45ab-8533-fe286ffc7a33",
+        "name": "New university",
+        "country": "string",
+        "numOfStudents": 0,
+        "campus": 0
+    }
+]

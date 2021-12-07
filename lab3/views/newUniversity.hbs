@@ -1,0 +1,21 @@
+<div class="wrapper">
+	<div class="new-university">
+		<div class="new-university__title title"><img id="main-logo" src="/img/icons/logo.png" alt="logo" /> Багатосторінковий сайт</div>
+		<div class="new-university__row row">
+			<div class="new-university__menu menu">
+				{{>menu}}
+			</div>
+			<div class="new-university__content content">
+				<form method="post" enctype="multipart/form-data">
+					<input type="text" name="name" required placeholder="Назва">
+					<input type="text" name="country" required placeholder="Країна">
+					<input type="number" name="numOfStudents" placeholder="Кількість студентів">
+					<input type="number" name="campus" placeholder="Площа">
+					Дата створення: <input type="date" name="foundationDate">
+					Зображення університету: <input type="file" name="unImage">
+					<input class="submit" type="submit" value="Створити">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

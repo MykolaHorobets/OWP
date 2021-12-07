@@ -1,0 +1,30 @@
+<div class="wrapper">
+	<div class="user">
+		<div class="user__title title"><img id="main-logo" src="/img/icons/logo.png" alt="logo" /> Багатосторінковий сайт</div>
+		<div class="user__row row">
+			<div class="user__menu menu">
+				{{>menu}}
+			</div>
+			<div class="user__content content">
+				{{#if user}}
+				<div class="flex-wrapper">
+					<div class="content__ava">
+						<img src="{{user.avaUrl}}" alt="image not found" />
+					</div>
+					<div class="content__desc">
+						<p><b>{{user.fullname}}</b></p>
+						<br>
+						<p>({{user.login}}) {{user.registeredAt}}</p>
+					</div>
+					<div class="content__bio">
+						<p>умовне біо</p>
+						<br>
+					</div>
+				</div>
+				{{else}}
+				<div>User is not found</div>
+				{{/if}}
+			</div>
+		</div>
+	</div>
+</div>

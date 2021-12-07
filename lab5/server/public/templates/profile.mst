@@ -1,0 +1,51 @@
+<div class="modal fade profile" id="showProfileModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Info about university</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body profile__content">
+				{{#image}}
+				<div class="profile__ava">
+					<img src="{{image}}" alt="avatar not found" />
+				</div>
+				{{/image}}
+				<br>
+				<table class="profile__table">
+					<tr>
+						<th>ID:</th>
+						<td>{{_id}}</td>
+					</tr>
+					<tr>
+						<th>Name:</th>
+						<td>{{name}}</td>
+					</tr>
+					<tr>
+						<th>Country:</th>
+						<td>{{country}}</td>
+					</tr>
+					<tr>
+						<th>Num of students:</th>
+						<td>{{numOfStudents}}</td>
+					</tr>
+					<tr>
+						<th>Campus:</th>
+						<td>{{campus}}</td>
+					</tr>
+					<tr>
+						<th>Foundation date:</th>
+						<td>{{foundationDate}}</td>
+					</tr>
+				</table>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#deleteModal" data-deleteid={{_id}}>
+					Delete university
+				</button>
+			</div>
+		</div>
+	</div>
+</div>

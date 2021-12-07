@@ -1,0 +1,29 @@
+<ul class="pagination justify-content-center">
+
+	{{#prev}}
+	<li class=" page-item">
+		<button class="page-link" data-page={{page}}>Previous</button>
+	</li>
+	{{/prev}}
+	{{^prev}}
+	<li class="page-item disabled">
+		<button class="page-link">Previous</button>
+	</li>
+	{{/prev}}
+
+	{{#pages}}
+	<li class="page-item"><button class="page-link" data-page={{.}}>{{.}}</button></li>
+	{{/pages}}
+
+	{{#next}}
+	<li class="page-item">
+		<button class="page-link" data-page={{page}}>Next</button>
+	</li>
+	{{/next}}
+	{{^next}}
+	<li class="page-item disabled">
+		<button class="page-link">Next</button>
+	</li>
+	{{/next}}
+
+</ul>

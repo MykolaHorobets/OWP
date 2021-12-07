@@ -1,0 +1,30 @@
+<div class="wrapper">
+	<div class="specialties">
+		<div class="specialties__title title"><img id="main-logo" src="/img/icons/logo.png" alt="logo" />Сайт</div>
+		<div class="specialties__row row">
+			<div class="specialties__menu menu">
+				{{>menu}}
+			</div>
+			<div class="specialties__content content">
+				{{#if specialties.length}}
+				{{#each specialties}}
+				<table class="entities-table">
+					<tr>
+						<td><a href="specialties/{{_id}}">{{name}}</a></td>
+					</tr>
+				</table>
+				{{/each}}
+
+				{{else}}
+				<p>No specialties..</p>
+				{{/if}}
+
+				<br>
+				<div class="create-new-specialty">
+					<a href="/specialties/new">Створити спеціальність</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="/js/custom.js"></script>
